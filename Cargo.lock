@@ -1064,6 +1064,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_screen_diagnostics"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22f424044b9b06214b4f6262e1527d8775c59c0028824b13d7dbe90ed64e5389"
+dependencies = [
+ "bevy",
+]
+
+[[package]]
 name = "bevy_sprite"
 version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4264,6 +4273,7 @@ name = "voxel"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "bevy_screen_diagnostics",
  "log",
 ]
 
